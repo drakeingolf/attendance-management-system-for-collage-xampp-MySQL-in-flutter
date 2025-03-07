@@ -1,0 +1,1303 @@
+RAW DATA: username=admin&password=123456POST DATA: Array
+(
+    [username] => admin
+    [password] => 123456
+)
+RAW DATA: username=admin&password=123456
+POST DATA: Array
+(
+    [username] => admin
+    [password] => 123456
+)
+
+DECODED JSON DATA: 
+RAW DATA: username=admin&password=12345
+POST DATA: Array
+(
+    [username] => admin
+    [password] => 12345
+)
+
+DECODED JSON DATA: 
+RAW DATA: username=admin&password=12345
+POST DATA: Array
+(
+    [username] => admin
+    [password] => 12345
+)
+
+DECODED JSON DATA: 
+RAW DATA: username=admin&password=123456
+POST DATA: Array
+(
+    [username] => admin
+    [password] => 123456
+)
+
+DECODED JSON DATA: 
+RAW DATA: username=admi&password=123456
+POST DATA: Array
+(
+    [username] => admi
+    [password] => 123456
+)
+
+DECODED JSON DATA: 
+RAW DATA: 
+POST DATA: Array
+(
+)
+
+DECODED JSON DATA: 
+RAW DATA: 
+POST DATA: Array
+(
+)
+
+DECODED JSON DATA: 
+RAW DATA: 
+POST DATA: Array
+(
+)
+
+DECODED JSON DATA: 
+RAW DATA: 
+POST DATA: Array
+(
+)
+
+DECODED JSON DATA: 
+RAW DATA: 
+POST DATA: Array
+(
+)
+
+DECODED JSON DATA: 
+RAW DATA: 
+POST DATA: Array
+(
+)
+
+DECODED JSON DATA: 
+RAW DATA: 
+POST DATA: Array
+(
+)
+
+DECODED JSON DATA: 
+RAW DATA: 
+POST DATA: Array
+(
+)
+
+DECODED JSON DATA: 
+RAW DATA: 
+POST DATA: Array
+(
+)
+
+DECODED JSON DATA: 
+RAW DATA: username=admin&password=admin
+POST DATA: Array
+(
+    [username] => admin
+    [password] => admin
+)
+
+DECODED JSON DATA: 
+RAW DATA: username=admin&password=123456
+POST DATA: Array
+(
+    [username] => admin
+    [password] => 123456
+)
+
+DECODED JSON DATA: 
+RAW DATA: 
+POST DATA: Array
+(
+)
+
+DECODED JSON DATA: 
+RAW DATA: username=ibrahim&password=121210
+POST DATA: Array
+(
+    [username] => ibrahim
+    [password] => 121210
+)
+
+DECODED JSON DATA: 
+RAW DATA: username=ibrahim&password=1212
+POST DATA: Array
+(
+    [username] => ibrahim
+    [password] => 1212
+)
+
+DECODED JSON DATA: 
+RAW DATA: username=ibrahim&password=1212
+POST DATA: Array
+(
+    [username] => ibrahim
+    [password] => 1212
+)
+
+DECODED JSON DATA: 
+RAW DATA: username=ibrahim&password=121210
+POST DATA: Array
+(
+    [username] => ibrahim
+    [password] => 121210
+)
+
+DECODED JSON DATA: 
+RAW DATA: username=ibrahim&password=121210
+POST DATA: Array
+(
+    [username] => ibrahim
+    [password] => 121210
+)
+
+DECODED JSON DATA: 
+RAW DATA: username=ibrahim&password=121210
+POST DATA: Array
+(
+    [username] => ibrahim
+    [password] => 121210
+)
+
+DECODED JSON DATA: 
+RAW DATA: username=ibrahim&password=121210
+POST DATA: Array
+(
+    [username] => ibrahim
+    [password] => 121210
+)
+
+DECODED JSON DATA: 
+RAW DATA: 
+POST DATA: Array
+(
+)
+
+DECODED JSON DATA: 
+RAW DATA: 
+POST DATA: Array
+(
+)
+
+DECODED JSON DATA: 
+RAW DATA: 
+POST DATA: Array
+(
+)
+
+DECODED JSON DATA: 
+RAW DATA: 
+POST DATA: Array
+(
+)
+
+DECODED JSON DATA: 
+RAW DATA: username=ibrahim&password=121210
+POST DATA: Array
+(
+    [username] => ibrahim
+    [password] => 121210
+)
+
+DECODED JSON DATA: 
+RAW DATA: username=ibrahim&password=121210
+POST DATA: Array
+(
+    [username] => ibrahim
+    [password] => 121210
+)
+
+DECODED JSON DATA: 
+RAW DATA: username=ibrahim&password=121210
+POST DATA: Array
+(
+    [username] => ibrahim
+    [password] => 121210
+)
+
+DECODED JSON DATA: 
+RAW DATA: username=ibrahim&password=121210
+POST DATA: Array
+(
+    [username] => ibrahim
+    [password] => 121210
+)
+
+DECODED JSON DATA: 
+RAW DATA: username=ibrahim&password=121210
+POST DATA: Array
+(
+    [username] => ibrahim
+    [password] => 121210
+)
+
+DECODED JSON DATA: 
+RAW DATA: username=ibrahim&password=121210
+POST DATA: Array
+(
+    [username] => ibrahim
+    [password] => 121210
+)
+
+DECODED JSON DATA: 
+RAW DATA: username=ibrahim&password=121210
+POST DATA: Array
+(
+    [username] => ibrahim
+    [password] => 121210
+)
+
+DECODED JSON DATA: 
+RAW DATA: username=ibrahim&password=121210
+POST DATA: Array
+(
+    [username] => ibrahim
+    [password] => 121210
+)
+
+DECODED JSON DATA: 
+RAW DATA: username=ibrahim&password=121210
+POST DATA: Array
+(
+    [username] => ibrahim
+    [password] => 121210
+)
+
+DECODED JSON DATA: 
+RAW DATA: username=ibrahim&password=12121
+POST DATA: Array
+(
+    [username] => ibrahim
+    [password] => 12121
+)
+
+DECODED JSON DATA: 
+RAW DATA: username=ibrahim&password=121210
+POST DATA: Array
+(
+    [username] => ibrahim
+    [password] => 121210
+)
+
+DECODED JSON DATA: 
+RAW DATA: username=ibrahim&password=121210
+POST DATA: Array
+(
+    [username] => ibrahim
+    [password] => 121210
+)
+
+DECODED JSON DATA: 
+RAW DATA: username=ibrahi&password=121210
+POST DATA: Array
+(
+    [username] => ibrahi
+    [password] => 121210
+)
+
+DECODED JSON DATA: 
+RAW DATA: username=ibrahim&password=121210
+POST DATA: Array
+(
+    [username] => ibrahim
+    [password] => 121210
+)
+
+DECODED JSON DATA: 
+RAW DATA: username=ibrahim&password=121210
+POST DATA: Array
+(
+    [username] => ibrahim
+    [password] => 121210
+)
+
+DECODED JSON DATA: 
+RAW DATA: username=admin&password=123456
+POST DATA: Array
+(
+    [username] => admin
+    [password] => 123456
+)
+
+DECODED JSON DATA: 
+RAW DATA: username=admin&password=12345
+POST DATA: Array
+(
+    [username] => admin
+    [password] => 12345
+)
+
+DECODED JSON DATA: 
+RAW DATA: username=admin&password=12345
+POST DATA: Array
+(
+    [username] => admin
+    [password] => 12345
+)
+
+DECODED JSON DATA: 
+RAW DATA: username=admin&password=123456
+POST DATA: Array
+(
+    [username] => admin
+    [password] => 123456
+)
+
+DECODED JSON DATA: 
+RAW DATA: username=admin&password=123456
+POST DATA: Array
+(
+    [username] => admin
+    [password] => 123456
+)
+
+DECODED JSON DATA: 
+RAW DATA: username=ibrahim&password=121210
+POST DATA: Array
+(
+    [username] => ibrahim
+    [password] => 121210
+)
+
+DECODED JSON DATA: 
+RAW DATA: username=ibrahim&password=121210
+POST DATA: Array
+(
+    [username] => ibrahim
+    [password] => 121210
+)
+
+DECODED JSON DATA: 
+RAW DATA: username=ibrahim&password=121210
+POST DATA: Array
+(
+    [username] => ibrahim
+    [password] => 121210
+)
+
+DECODED JSON DATA: 
+RAW DATA: username=ibrahim&password=121210
+POST DATA: Array
+(
+    [username] => ibrahim
+    [password] => 121210
+)
+
+DECODED JSON DATA: 
+RAW DATA: username=ibrahim&password=12121
+POST DATA: Array
+(
+    [username] => ibrahim
+    [password] => 12121
+)
+
+DECODED JSON DATA: 
+RAW DATA: username=ibrahim&password=121210
+POST DATA: Array
+(
+    [username] => ibrahim
+    [password] => 121210
+)
+
+DECODED JSON DATA: 
+RAW DATA: username=admin&password=123456
+POST DATA: Array
+(
+    [username] => admin
+    [password] => 123456
+)
+
+DECODED JSON DATA: 
+RAW DATA: username=ibrahim&password=121210
+POST DATA: Array
+(
+    [username] => ibrahim
+    [password] => 121210
+)
+
+DECODED JSON DATA: 
+RAW DATA: username=ibrahim&password=121210
+POST DATA: Array
+(
+    [username] => ibrahim
+    [password] => 121210
+)
+
+DECODED JSON DATA: 
+RAW DATA: 
+POST DATA: Array
+(
+)
+
+DECODED JSON DATA: 
+RAW DATA: 
+POST DATA: Array
+(
+)
+
+DECODED JSON DATA: 
+RAW DATA: 
+POST DATA: Array
+(
+)
+
+DECODED JSON DATA: 
+RAW DATA: username=ibrahim&password=121210
+POST DATA: Array
+(
+    [username] => ibrahim
+    [password] => 121210
+)
+
+DECODED JSON DATA: 
+RAW DATA: username=ibrahim&password=121210
+POST DATA: Array
+(
+    [username] => ibrahim
+    [password] => 121210
+)
+
+DECODED JSON DATA: 
+RAW DATA: username=ibrahim&password=121210
+POST DATA: Array
+(
+    [username] => ibrahim
+    [password] => 121210
+)
+
+DECODED JSON DATA: 
+RAW DATA: 
+POST DATA: Array
+(
+)
+
+DECODED JSON DATA: 
+RAW DATA: 
+POST DATA: Array
+(
+)
+
+DECODED JSON DATA: 
+RAW DATA: 
+POST DATA: Array
+(
+)
+
+DECODED JSON DATA: 
+RAW DATA: 
+POST DATA: Array
+(
+)
+
+DECODED JSON DATA: 
+RAW DATA: 
+POST DATA: Array
+(
+)
+
+DECODED JSON DATA: 
+RAW DATA: 
+POST DATA: Array
+(
+)
+
+DECODED JSON DATA: 
+RAW DATA: username=ibrahim&password=121210
+POST DATA: Array
+(
+    [username] => ibrahim
+    [password] => 121210
+)
+
+DECODED JSON DATA: 
+RAW DATA: 
+POST DATA: Array
+(
+)
+
+DECODED JSON DATA: 
+RAW DATA: username=admin&password=123456
+POST DATA: Array
+(
+    [username] => admin
+    [password] => 123456
+)
+
+DECODED JSON DATA: 
+RAW DATA: username=admin&password=123456
+POST DATA: Array
+(
+    [username] => admin
+    [password] => 123456
+)
+
+DECODED JSON DATA: 
+RAW DATA: username=admin&password=123456
+POST DATA: Array
+(
+    [username] => admin
+    [password] => 123456
+)
+
+DECODED JSON DATA: 
+RAW DATA: username=admin&password=123456
+POST DATA: Array
+(
+    [username] => admin
+    [password] => 123456
+)
+
+DECODED JSON DATA: 
+RAW DATA: username=admin&password=123456
+POST DATA: Array
+(
+    [username] => admin
+    [password] => 123456
+)
+
+DECODED JSON DATA: 
+RAW DATA: username=admin&password=123456
+POST DATA: Array
+(
+    [username] => admin
+    [password] => 123456
+)
+
+DECODED JSON DATA: 
+RAW DATA: username=admin&password=123456
+POST DATA: Array
+(
+    [username] => admin
+    [password] => 123456
+)
+
+DECODED JSON DATA: 
+RAW DATA: username=admin&password=123456
+POST DATA: Array
+(
+    [username] => admin
+    [password] => 123456
+)
+
+DECODED JSON DATA: 
+RAW DATA: username=admin&password=1234
+POST DATA: Array
+(
+    [username] => admin
+    [password] => 1234
+)
+
+DECODED JSON DATA: 
+RAW DATA: username=admin&password=1234
+POST DATA: Array
+(
+    [username] => admin
+    [password] => 1234
+)
+
+DECODED JSON DATA: 
+RAW DATA: username=admin&password=1234
+POST DATA: Array
+(
+    [username] => admin
+    [password] => 1234
+)
+
+DECODED JSON DATA: 
+RAW DATA: username=admin&password=123456
+POST DATA: Array
+(
+    [username] => admin
+    [password] => 123456
+)
+
+DECODED JSON DATA: 
+RAW DATA: username=admin&password=123456
+POST DATA: Array
+(
+    [username] => admin
+    [password] => 123456
+)
+
+DECODED JSON DATA: 
+RAW DATA: username=admin&password=123456
+POST DATA: Array
+(
+    [username] => admin
+    [password] => 123456
+)
+
+DECODED JSON DATA: 
+RAW DATA: username=admin&password=123456
+POST DATA: Array
+(
+    [username] => admin
+    [password] => 123456
+)
+
+DECODED JSON DATA: 
+RAW DATA: username=admin&password=123456
+POST DATA: Array
+(
+    [username] => admin
+    [password] => 123456
+)
+
+DECODED JSON DATA: 
+RAW DATA: 
+POST DATA: Array
+(
+)
+
+DECODED JSON DATA: 
+RAW DATA: username=admin&password=123456
+POST DATA: Array
+(
+    [username] => admin
+    [password] => 123456
+)
+
+DECODED JSON DATA: 
+RAW DATA: username=admin&password=12345
+POST DATA: Array
+(
+    [username] => admin
+    [password] => 12345
+)
+
+DECODED JSON DATA: 
+RAW DATA: username=admin&password=12345
+POST DATA: Array
+(
+    [username] => admin
+    [password] => 12345
+)
+
+DECODED JSON DATA: 
+RAW DATA: username=admin&password=12345
+POST DATA: Array
+(
+    [username] => admin
+    [password] => 12345
+)
+
+DECODED JSON DATA: 
+RAW DATA: username=admin&password=12345
+POST DATA: Array
+(
+    [username] => admin
+    [password] => 12345
+)
+
+DECODED JSON DATA: 
+RAW DATA: username=admin&password=12345
+POST DATA: Array
+(
+    [username] => admin
+    [password] => 12345
+)
+
+DECODED JSON DATA: 
+RAW DATA: username=admin&password=12345
+POST DATA: Array
+(
+    [username] => admin
+    [password] => 12345
+)
+
+DECODED JSON DATA: 
+RAW DATA: username=admin&password=12345
+POST DATA: Array
+(
+    [username] => admin
+    [password] => 12345
+)
+
+DECODED JSON DATA: 
+RAW DATA: username=admin&password=12345
+POST DATA: Array
+(
+    [username] => admin
+    [password] => 12345
+)
+
+DECODED JSON DATA: 
+RAW DATA: username=admin&password=12345
+POST DATA: Array
+(
+    [username] => admin
+    [password] => 12345
+)
+
+DECODED JSON DATA: 
+RAW DATA: username=admin&password=12345
+POST DATA: Array
+(
+    [username] => admin
+    [password] => 12345
+)
+
+DECODED JSON DATA: 
+RAW DATA: username=admin&password=12345
+POST DATA: Array
+(
+    [username] => admin
+    [password] => 12345
+)
+
+DECODED JSON DATA: 
+RAW DATA: username=admin&password=12345
+POST DATA: Array
+(
+    [username] => admin
+    [password] => 12345
+)
+
+DECODED JSON DATA: 
+RAW DATA: username=admin&password=12345
+POST DATA: Array
+(
+    [username] => admin
+    [password] => 12345
+)
+
+DECODED JSON DATA: 
+RAW DATA: username=admin&password=12345
+POST DATA: Array
+(
+    [username] => admin
+    [password] => 12345
+)
+
+DECODED JSON DATA: 
+RAW DATA: username=admin&password=12345
+POST DATA: Array
+(
+    [username] => admin
+    [password] => 12345
+)
+
+DECODED JSON DATA: 
+RAW DATA: username=admin&password=12345
+POST DATA: Array
+(
+    [username] => admin
+    [password] => 12345
+)
+
+DECODED JSON DATA: 
+RAW DATA: username=admin&password=12345
+POST DATA: Array
+(
+    [username] => admin
+    [password] => 12345
+)
+
+DECODED JSON DATA: 
+RAW DATA: username=admin&password=12345
+POST DATA: Array
+(
+    [username] => admin
+    [password] => 12345
+)
+
+DECODED JSON DATA: 
+RAW DATA: username=admin&password=12345
+POST DATA: Array
+(
+    [username] => admin
+    [password] => 12345
+)
+
+DECODED JSON DATA: 
+RAW DATA: username=admin&password=12345
+POST DATA: Array
+(
+    [username] => admin
+    [password] => 12345
+)
+
+DECODED JSON DATA: 
+RAW DATA: username=admin&password=12345
+POST DATA: Array
+(
+    [username] => admin
+    [password] => 12345
+)
+
+DECODED JSON DATA: 
+RAW DATA: username=admin&password=12345
+POST DATA: Array
+(
+    [username] => admin
+    [password] => 12345
+)
+
+DECODED JSON DATA: 
+RAW DATA: username=admin&password=12345
+POST DATA: Array
+(
+    [username] => admin
+    [password] => 12345
+)
+
+DECODED JSON DATA: 
+RAW DATA: username=admin&password=12345
+POST DATA: Array
+(
+    [username] => admin
+    [password] => 12345
+)
+
+DECODED JSON DATA: 
+RAW DATA: username=admin&password=12345
+POST DATA: Array
+(
+    [username] => admin
+    [password] => 12345
+)
+
+DECODED JSON DATA: 
+RAW DATA: username=admin&password=12345
+POST DATA: Array
+(
+    [username] => admin
+    [password] => 12345
+)
+
+DECODED JSON DATA: 
+RAW DATA: username=admin&password=12345
+POST DATA: Array
+(
+    [username] => admin
+    [password] => 12345
+)
+
+DECODED JSON DATA: 
+RAW DATA: username=admin&password=12345
+POST DATA: Array
+(
+    [username] => admin
+    [password] => 12345
+)
+
+DECODED JSON DATA: 
+RAW DATA: username=admin&password=12345
+POST DATA: Array
+(
+    [username] => admin
+    [password] => 12345
+)
+
+DECODED JSON DATA: 
+RAW DATA: username=admin&password=12345
+POST DATA: Array
+(
+    [username] => admin
+    [password] => 12345
+)
+
+DECODED JSON DATA: 
+RAW DATA: username=admin&password=12345
+POST DATA: Array
+(
+    [username] => admin
+    [password] => 12345
+)
+
+DECODED JSON DATA: 
+RAW DATA: username=admin&password=12345
+POST DATA: Array
+(
+    [username] => admin
+    [password] => 12345
+)
+
+DECODED JSON DATA: 
+RAW DATA: 
+POST DATA: Array
+(
+)
+
+DECODED JSON DATA: 
+RAW DATA: username=admin&password=123456
+POST DATA: Array
+(
+    [username] => admin
+    [password] => 123456
+)
+
+DECODED JSON DATA: 
+RAW DATA: 
+POST DATA: Array
+(
+)
+
+DECODED JSON DATA: 
+RAW DATA: 
+POST DATA: Array
+(
+)
+
+DECODED JSON DATA: 
+RAW DATA: 
+POST DATA: Array
+(
+)
+
+DECODED JSON DATA: 
+RAW DATA: 
+POST DATA: Array
+(
+)
+
+DECODED JSON DATA: 
+RAW DATA: username=admin&password=123456
+POST DATA: Array
+(
+    [username] => admin
+    [password] => 123456
+)
+
+DECODED JSON DATA: 
+RAW DATA: username=admin&password=123456
+POST DATA: Array
+(
+    [username] => admin
+    [password] => 123456
+)
+
+DECODED JSON DATA: 
+RAW DATA: username=ibrahim&password=121210
+POST DATA: Array
+(
+    [username] => ibrahim
+    [password] => 121210
+)
+
+DECODED JSON DATA: 
+RAW DATA: username=ibrahim&password=12121
+POST DATA: Array
+(
+    [username] => ibrahim
+    [password] => 12121
+)
+
+DECODED JSON DATA: 
+RAW DATA: username=ibrahim&password=1212
+POST DATA: Array
+(
+    [username] => ibrahim
+    [password] => 1212
+)
+
+DECODED JSON DATA: 
+RAW DATA: username=admin&password=123456
+POST DATA: Array
+(
+    [username] => admin
+    [password] => 123456
+)
+
+DECODED JSON DATA: 
+RAW DATA: username=admin&password=12345
+POST DATA: Array
+(
+    [username] => admin
+    [password] => 12345
+)
+
+DECODED JSON DATA: 
+RAW DATA: username=ibrahim&password=121210
+POST DATA: Array
+(
+    [username] => ibrahim
+    [password] => 121210
+)
+
+DECODED JSON DATA: 
+RAW DATA: username=ibrahim&password=121210
+POST DATA: Array
+(
+    [username] => ibrahim
+    [password] => 121210
+)
+
+DECODED JSON DATA: 
+RAW DATA: username=ibrahim&password=12121
+POST DATA: Array
+(
+    [username] => ibrahim
+    [password] => 12121
+)
+
+DECODED JSON DATA: 
+RAW DATA: username=ibrahim&password=12121
+POST DATA: Array
+(
+    [username] => ibrahim
+    [password] => 12121
+)
+
+DECODED JSON DATA: 
+RAW DATA: username=ibrahim&password=121210
+POST DATA: Array
+(
+    [username] => ibrahim
+    [password] => 121210
+)
+
+DECODED JSON DATA: 
+RAW DATA: username=ibrahim&password=12121
+POST DATA: Array
+(
+    [username] => ibrahim
+    [password] => 12121
+)
+
+DECODED JSON DATA: 
+RAW DATA: username=admin&password=123456
+POST DATA: Array
+(
+    [username] => admin
+    [password] => 123456
+)
+
+DECODED JSON DATA: 
+RAW DATA: username=admin&password=12345
+POST DATA: Array
+(
+    [username] => admin
+    [password] => 12345
+)
+
+DECODED JSON DATA: 
+RAW DATA: username=admin&password=12345
+POST DATA: Array
+(
+    [username] => admin
+    [password] => 12345
+)
+
+DECODED JSON DATA: 
+RAW DATA: username=admin&password=12345
+POST DATA: Array
+(
+    [username] => admin
+    [password] => 12345
+)
+
+DECODED JSON DATA: 
+RAW DATA: username=admin&password=12345
+POST DATA: Array
+(
+    [username] => admin
+    [password] => 12345
+)
+
+DECODED JSON DATA: 
+RAW DATA: username=admin&password=12345
+POST DATA: Array
+(
+    [username] => admin
+    [password] => 12345
+)
+
+DECODED JSON DATA: 
+RAW DATA: username=admin&password=12345
+POST DATA: Array
+(
+    [username] => admin
+    [password] => 12345
+)
+
+DECODED JSON DATA: 
+RAW DATA: username=admin&password=12345
+POST DATA: Array
+(
+    [username] => admin
+    [password] => 12345
+)
+
+DECODED JSON DATA: 
+RAW DATA: username=admin&password=12345
+POST DATA: Array
+(
+    [username] => admin
+    [password] => 12345
+)
+
+DECODED JSON DATA: 
+RAW DATA: username=admin&password=12345
+POST DATA: Array
+(
+    [username] => admin
+    [password] => 12345
+)
+
+DECODED JSON DATA: 
+RAW DATA: username=admin&password=123456
+POST DATA: Array
+(
+    [username] => admin
+    [password] => 123456
+)
+
+DECODED JSON DATA: 
+RAW DATA: username=admin&password=123456
+POST DATA: Array
+(
+    [username] => admin
+    [password] => 123456
+)
+
+DECODED JSON DATA: 
+RAW DATA: username=admin&password=123456
+POST DATA: Array
+(
+    [username] => admin
+    [password] => 123456
+)
+
+DECODED JSON DATA: 
+RAW DATA: username=admin&password=123456
+POST DATA: Array
+(
+    [username] => admin
+    [password] => 123456
+)
+
+DECODED JSON DATA: 
+RAW DATA: username=admin&password=123456
+POST DATA: Array
+(
+    [username] => admin
+    [password] => 123456
+)
+
+DECODED JSON DATA: 
+RAW DATA: username=admin&password=123456
+POST DATA: Array
+(
+    [username] => admin
+    [password] => 123456
+)
+
+DECODED JSON DATA: 
+RAW DATA: username=admin&password=123456
+POST DATA: Array
+(
+    [username] => admin
+    [password] => 123456
+)
+
+DECODED JSON DATA: 
+RAW DATA: username=admin&password=123456
+POST DATA: Array
+(
+    [username] => admin
+    [password] => 123456
+)
+
+DECODED JSON DATA: 
+RAW DATA: username=ibrahim&password=121210
+POST DATA: Array
+(
+    [username] => ibrahim
+    [password] => 121210
+)
+
+DECODED JSON DATA: 
+RAW DATA: 
+POST DATA: Array
+(
+)
+
+DECODED JSON DATA: 
+RAW DATA: username=ibrahim&password=121210
+POST DATA: Array
+(
+    [username] => ibrahim
+    [password] => 121210
+)
+
+DECODED JSON DATA: 
+RAW DATA: username=admin&password=123456
+POST DATA: Array
+(
+    [username] => admin
+    [password] => 123456
+)
+
+DECODED JSON DATA: 
+RAW DATA: username=admin&password=123456
+POST DATA: Array
+(
+    [username] => admin
+    [password] => 123456
+)
+
+DECODED JSON DATA: 
+RAW DATA: username=admin&password=123456
+POST DATA: Array
+(
+    [username] => admin
+    [password] => 123456
+)
+
+DECODED JSON DATA: 
+RAW DATA: username=admin&password=123456
+POST DATA: Array
+(
+    [username] => admin
+    [password] => 123456
+)
+
+DECODED JSON DATA: 
+RAW DATA: username=admin&password=123456
+POST DATA: Array
+(
+    [username] => admin
+    [password] => 123456
+)
+
+DECODED JSON DATA: 
+RAW DATA: username=admin&password=123456
+POST DATA: Array
+(
+    [username] => admin
+    [password] => 123456
+)
+
+DECODED JSON DATA: 
+RAW DATA: username=admin&password=123456
+POST DATA: Array
+(
+    [username] => admin
+    [password] => 123456
+)
+
+DECODED JSON DATA: 
+RAW DATA: username=admin&password=1234
+POST DATA: Array
+(
+    [username] => admin
+    [password] => 1234
+)
+
+DECODED JSON DATA: 
+RAW DATA: username=admin&password=1234
+POST DATA: Array
+(
+    [username] => admin
+    [password] => 1234
+)
+
+DECODED JSON DATA: 
