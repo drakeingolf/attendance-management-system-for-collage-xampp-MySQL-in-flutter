@@ -1,6 +1,6 @@
 import 'dart:convert';
 import 'package:attendance/pages/student_home.dart';
-import 'package:attendance/pages/admin_home.dart';
+import 'package:attendance/pages/admin/admin_home.dart';
 import 'package:attendance/pages/faculty_home.dart';
 //import 'package:attendance/pages/second_page.dart';
 //import 'package:attendance/components/square_title.dart';
@@ -28,68 +28,72 @@ class LoginPage extends StatelessWidget {
         fontSize: 16.0,
       );
       return;
-    } else {
-      //var url = "http://192.168.56.1/localconnect/login.php";
+    }
 
-      final response = await http.post(
-        Uri.parse('http://192.168.56.1/localconnect/login.php'),
-        headers: {'Content-Type': 'application/x-www-form-urlencoded'},
-        body: {'username': username.text, 'password': password.text},
-      );
+    final response = await http.post(
+      Uri.parse('http://10.0.2.2/localconnect/login.php'),
+      headers: {'Content-Type': 'application/x-www-form-urlencoded'},
+      body: {'username': username.text, 'password': password.text},
+    );
 
-      print("Server Response: ${response.body}"); // Debugging output
+    print("Server Response: ${response.body}"); // Debugging output
 
-      try {
-        var data = json.decode(response.body);
+    try {
+      var data = json.decode(response.body);
+      print("Decoded JSON: $data");
 
-        if (data["status"] == "Success") {
-          String role = data["role"];
-          Fluttertoast.showToast(
-            msg: "Login successful",
-            toastLength: Toast.LENGTH_SHORT,
-            gravity: ToastGravity.BOTTOM,
-            backgroundColor: Colors.green,
-            textColor: Colors.white,
-            fontSize: 16.0,
+      if (data["status"] == "Success") {
+        String role = data["role"];
+        String adminName = data["admin_name"]; // Fetch admin name
+
+        Fluttertoast.showToast(
+          msg: "Login successful",
+          toastLength: Toast.LENGTH_SHORT,
+          gravity: ToastGravity.BOTTOM,
+          backgroundColor: Colors.green,
+          textColor: Colors.white,
+          fontSize: 16.0,
+        );
+
+        if (role == "admin") {
+          Navigator.pushReplacement(
+            context,
+            MaterialPageRoute(
+              builder: (context) => AdminHomePage(adminName: adminName),
+            ),
           );
-          if (role == "admin") {
-            Navigator.push(
-              context,
-              MaterialPageRoute(builder: (context) => AdminPage()),
-            );
-          } else if (role == "faculty") {
-            Navigator.push(
-              context,
-              MaterialPageRoute(builder: (context) => FacultyPage()),
-            );
-          } else if (role == "student") {
-            Navigator.push(
-              context,
-              MaterialPageRoute(builder: (context) => StudentPage()),
-            );
-          } else {
-            Fluttertoast.showToast(
-              msg: "Unknown role: $role",
-              toastLength: Toast.LENGTH_SHORT,
-              gravity: ToastGravity.BOTTOM,
-              backgroundColor: Colors.orange,
-              textColor: Colors.white,
-              fontSize: 16.0,
-            );
-          }
+        } else if (role == "faculty") {
+          Navigator.pushReplacement(
+            context,
+            MaterialPageRoute(builder: (context) => FacultyPage()),
+          );
+        } else if (role == "student") {
+          Navigator.pushReplacement(
+            context,
+            MaterialPageRoute(builder: (context) => StudentPage()),
+          );
         } else {
           Fluttertoast.showToast(
-            msg: "Invalid username or password",
+            msg: "Unknown role: $role",
             toastLength: Toast.LENGTH_SHORT,
             gravity: ToastGravity.BOTTOM,
-            backgroundColor: Colors.red,
+            backgroundColor: Colors.orange,
             textColor: Colors.white,
             fontSize: 16.0,
           );
         }
-      } catch (e) {
-        print("Error decoding response: $e");
+      } else {
+        Fluttertoast.showToast(
+          msg: "Invalid username or password",
+          toastLength: Toast.LENGTH_SHORT,
+          gravity: ToastGravity.BOTTOM,
+          backgroundColor: Colors.red,
+          textColor: Colors.white,
+          fontSize: 16.0,
+        );
       }
+    } catch (e) {
+      print("Error decoding response: $e");
     }
   }
 
@@ -134,20 +138,6 @@ class LoginPage extends StatelessWidget {
               ),
 
               //forgot password
-              SizedBox(height: 10),
-              Padding(
-                padding: const EdgeInsets.symmetric(horizontal: 25.0),
-                child: Row(
-                  mainAxisAlignment: MainAxisAlignment.end,
-
-                  children: [
-                    Text(
-                      "Forgot Password?",
-                      style: TextStyle(color: Colors.grey[850], fontSize: 14),
-                    ),
-                  ],
-                ),
-              ),
               SizedBox(height: 25),
               //sign in button
               ButtonTheme(
