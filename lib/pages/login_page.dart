@@ -1,7 +1,7 @@
 import 'dart:convert';
 import 'package:attendance/pages/student_home.dart';
 import 'package:attendance/pages/admin/admin_home.dart';
-import 'package:attendance/pages/faculty_home.dart';
+import 'package:attendance/pages/faculty/faculty_home.dart';
 //import 'package:attendance/pages/second_page.dart';
 //import 'package:attendance/components/square_title.dart';
 import 'package:attendance/components/my_button.dart';
@@ -65,7 +65,7 @@ class LoginPage extends StatelessWidget {
         } else if (role == "faculty") {
           Navigator.pushReplacement(
             context,
-            MaterialPageRoute(builder: (context) => FacultyPage()),
+            MaterialPageRoute(builder: (context) => FacultyDashboard()),
           );
         } else if (role == "student") {
           Navigator.pushReplacement(

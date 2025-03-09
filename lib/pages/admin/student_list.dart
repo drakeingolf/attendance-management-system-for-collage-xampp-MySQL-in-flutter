@@ -4,7 +4,7 @@ import 'package:attendance/components/custom_drawer.dart'; // Ensure this path i
 class StudentPage extends StatefulWidget {
   final String adminName;
   final String department;
-  StudentPage({required this.adminName, required this.department});
+  const StudentPage({super.key, required this.adminName, required this.department});
 
   @override
   _StudentPageState createState() => _StudentPageState();
