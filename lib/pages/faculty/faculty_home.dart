@@ -2,6 +2,8 @@ import 'package:attendance/pages/faculty/Widgets/drawer.dart';
 import 'package:flutter/material.dart';
 
 class FacultyDashboard extends StatefulWidget {
+  const FacultyDashboard({super.key});
+
   @override
   _FacultyDashboardState createState() => _FacultyDashboardState();
 }
@@ -9,17 +11,23 @@ class FacultyDashboard extends StatefulWidget {
 class _FacultyDashboardState extends State<FacultyDashboard> {
   String facultyName = "Lini Miss."; // Simulated database fetch
   String selectedSubject = "";
+  List<Map<String, String>> subjects = []; // List to store fetched subjects
 
   @override
   void initState() {
     super.initState();
-    fetchFacultyName();
+    fetchFacultyDetails();
   }
 
-  void fetchFacultyName() {
-    // Simulate fetching from database
+  void fetchFacultyDetails() {
+    // Simulate fetching faculty name and subjects from database
     setState(() {
       facultyName = "Dr. John Doe"; // Replace with actual fetched name
+      subjects = [
+        {"code": "CST201", "title": "DATA STRUCTURES"},
+        {"code": "CST301", "title": "ALGORITHM AND ANALYSIS"},
+        {"code": "CST202", "title": "OBJECTIVE ORIENTED PROGRAMMING"},
+      ];
     });
   }
 
@@ -30,12 +38,7 @@ class _FacultyDashboardState extends State<FacultyDashboard> {
       appBar: AppBar(
         backgroundColor: Colors.transparent,
         elevation: 0,
-        actions: [
-          IconButton(
-            icon: Icon(Icons.logout, color: Colors.black),
-            onPressed: () {},
-          ),
-        ],
+        actions: [],
       ),
       drawer: CustomDrawer(facultyName: facultyName),
       body: LayoutBuilder(
@@ -68,24 +71,17 @@ class _FacultyDashboardState extends State<FacultyDashboard> {
                   ),
                 ),
                 SizedBox(height: 10),
-                // Subject List
-                SubjectCard(
-                  "CST201",
-                  "DATA STRUCTURES",
-                  selectedSubject,
-                  (code) => setState(() => selectedSubject = code),
-                ),
-                SubjectCard(
-                  "CST301",
-                  "ALGORITHM AND ANALYSIS",
-                  selectedSubject,
-                  (code) => setState(() => selectedSubject = code),
-                ),
-                SubjectCard(
-                  "CST202",
-                  "OBJECTIVE ORIENTED PROGRAMMING",
-                  selectedSubject,
-                  (code) => setState(() => selectedSubject = code),
+                // Subject List dynamically generated
+                Column(
+                  children:
+                      subjects.map((subject) {
+                        return SubjectCard(
+                          subject["code"]!,
+                          subject["title"]!,
+                          selectedSubject,
+                          (code) => setState(() => selectedSubject = code),
+                        );
+                      }).toList(),
                 ),
                 Spacer(),
                 // Buttons at the bottom
@@ -95,8 +91,14 @@ class _FacultyDashboardState extends State<FacultyDashboard> {
                     IconButton(
                       icon: Icon(Icons.edit, color: Colors.black),
                       onPressed: () {
-                        // Navigate to mark attendance page
-                        Navigator.pushNamed(context, '/markAttendance');
+                        // Navigate to mark attendance page with selected subject
+                        if (selectedSubject.isNotEmpty) {
+                          Navigator.pushNamed(
+                            context,
+                            '/markAttendance',
+                            arguments: {'subjectCode': selectedSubject},
+                          );
+                        }
                       },
                       iconSize: constraints.maxWidth * 0.08,
                     ),
@@ -125,7 +127,13 @@ class SubjectCard extends StatelessWidget {
   final String selectedSubject;
   final Function(String) onSelect;
 
-  SubjectCard(this.code, this.title, this.selectedSubject, this.onSelect);
+  const SubjectCard(
+    this.code,
+    this.title,
+    this.selectedSubject,
+    this.onSelect, {
+    super.key,
+  });
 
   @override
   Widget build(BuildContext context) {

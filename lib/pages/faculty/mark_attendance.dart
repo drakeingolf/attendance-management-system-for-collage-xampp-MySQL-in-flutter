@@ -3,6 +3,8 @@ import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
 
 class AttendancePage extends StatefulWidget {
+  const AttendancePage({super.key});
+
   @override
   _AttendancePageState createState() => _AttendancePageState();
 }
@@ -64,12 +66,7 @@ class _AttendancePageState extends State<AttendancePage> {
       appBar: AppBar(
         backgroundColor: Colors.transparent,
         elevation: 0,
-        actions: [
-          IconButton(
-            icon: Icon(Icons.logout, color: Colors.black),
-            onPressed: () {},
-          ),
-        ],
+        actions: [],
       ),
       drawer: CustomDrawer(facultyName: facultyName),
       body: Padding(
@@ -91,13 +88,15 @@ class _AttendancePageState extends State<AttendancePage> {
                     decoration: InputDecoration(
                       filled: true,
                       fillColor: Colors.white,
-                      border: OutlineInputBorder(),
+                      border: OutlineInputBorder(
+                        borderRadius: BorderRadius.circular(10),
+                      ),
                       hintText: "Hours",
                     ),
                     onChanged: (value) {
                       int? enteredValue = int.tryParse(value);
                       if (enteredValue != null &&
-                          (enteredValue < 1 || enteredValue > 8)) {
+                          (enteredValue < 1 || enteredValue > 6)) {
                         hoursController.text = "";
                       }
                     },
@@ -141,9 +140,15 @@ class _AttendancePageState extends State<AttendancePage> {
             ),
             Align(
               alignment: Alignment.bottomRight,
-              child: IconButton(
-                icon: Icon(Icons.arrow_forward, size: 30, color: Colors.green),
-                onPressed: () {},
+              child: Padding(
+                padding: const EdgeInsets.only(bottom: 20.0),
+                child: FloatingActionButton(
+                  backgroundColor: Colors.white,
+                  onPressed: () {
+                    Navigator.pushNamed(context, '/absentees');
+                  },
+                  child: Icon(Icons.arrow_forward, color: Colors.black),
+                ),
               ),
             ),
           ],
