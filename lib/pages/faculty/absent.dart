@@ -6,10 +6,10 @@ class AbsenteesPage extends StatefulWidget {
   final List<Map<String, dynamic>> absentStudents;
 
   const AbsenteesPage({
-    Key? key,
+    super.key,
     required this.subjectName,
     required this.absentStudents,
-  }) : super(key: key);
+  });
 
   @override
   _AbsenteesPageState createState() => _AbsenteesPageState();

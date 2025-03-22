@@ -1,8 +1,9 @@
-import 'package:attendance/pages/faculty/faculty_home.dart';
+
+import 'package:flutter/material.dart';
 import 'package:attendance/pages/login_page.dart';
+import 'package:attendance/pages/faculty/faculty_home.dart';
 import 'package:attendance/pages/faculty/mark_attendance.dart'; // Add this line
 import 'package:attendance/pages/faculty/absent.dart'; // Add this line
-import 'package:flutter/material.dart';
 import 'package:attendance/pages/faculty/successful.dart'; // Add this line
 
 void main() {

@@ -8,7 +8,7 @@ class AttendanceConfirmation extends StatelessWidget {
   final List<String> presentStudents;
   final List<String> absentStudents;
 
-  const AttendanceConfirmation({
+  const AttendanceConfirmation({super.key, 
     Key? key,
     required this.subjectName,
     required this.presentStudents,
